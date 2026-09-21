@@ -26,6 +26,9 @@ jobs:
           cache: "pnpm"
       - run: pnpm install --frozen-lockfile
       - run: pnpm build
+        env:
+          PENPALS_PAGE_PASSWORD: ${{ secrets.PENPALS_PAGE_PASSWORD }}
+          PENPALS_PAGE_IFRAME_URL: ${{ secrets.PENPALS_PAGE_IFRAME_URL }}
       - uses: actions/configure-pages@v5
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v5
