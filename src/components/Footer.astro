@@ -1,0 +1,68 @@
+---
+import { Image } from "astro:assets";
+import pcpLogo from "~/images/pcplogo.png";
+
+// note important! classes below to undo globals, and --container var for max-w
+---
+
+<footer class="w-full bg-[rgb(76,76,76)] px-4 pt-12 pb-8">
+  <div class="mx-auto grid max-w-(--container) place-items-center gap-8 bg-[rgb(76,76,76)] text-white lg:grid-cols-3 lg:gap-0">
+    <div class="flex max-w-sm flex-col gap-3">
+      <Image src={pcpLogo} alt="Prisoner Correspondence Project" />
+      <div class="flex flex-col items-center lg:items-start">
+        <div class="flex gap-1">
+          <a
+            href="mailto:info@prisonercorrespondenceproject.com"
+            class="text-white! underline!"
+          >
+            info@prisonercorrespondenceproject.com
+          </a>
+        </div>
+        <div class="flex gap-1">
+          <strong>Instagram</strong>
+          <a
+            href="https://www.instagram.com/prisonercorrespondenceproject/"
+            class="text-white! underline!"
+          >
+            @prisonercorrespondenceproject
+          </a>
+        </div>
+        <div class="flex gap-1">
+          <strong>Bluesky</strong>
+          <a
+            href="https://bsky.app/profile/queerprisoners.bsky.social"
+            class="text-white! underline!"
+          >
+            @queerprisoners.bsky.social
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="text-center">
+      <h4 class="mb-2!">Physical Address</h4>
+      <div>
+        QPIRG Concordia
+        <br />
+        2100 Guy, Suite #205
+        <br />
+        Montreal QC H3G 1M8
+        <br />
+        CANADA
+      </div>
+    </div>
+    <div class="text-center">
+      <h4 class="mb-2!">Mailing Address</h4>
+      <div>
+        Prisoner Correspondence Project
+        <br />
+        QPIRG Concordia c/o Concordia University
+        <br />
+        1455 de Maisonneuve Ouest
+        <br />
+        Montreal QC H3G 1M8
+        <br />
+        CANADA
+      </div>
+    </div>
+  </div>
+</footer>

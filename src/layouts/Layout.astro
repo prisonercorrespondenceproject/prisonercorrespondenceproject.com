@@ -1,0 +1,41 @@
+---
+import "~/styles/global.css";
+import "~/styles/main.css";
+import Navbar from "~/components/Navbar.astro";
+import Footer from "~/components/Footer.astro";
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" href="/favicon.ico" sizes="32x32" />
+
+    <!-- TODO: rss -->
+
+    <!-- TODO: configurable title in layout -->
+    <title>
+      Prisoner Correspondence Project – a solidarity project for gay, lesbian,
+      transsexual, transgender, gendervariant, two-spirit, intersex, bisexual
+      and queer prisoners
+    </title>
+  </head>
+  <body class="page">
+    <div class="wrapper">
+      <Navbar />
+      <main id="content" class="neve-main">
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <slot />
+            </div>
+          </div>
+        </div>
+      </main>
+      <Footer />
+    </div>
+  </body>
+</html>

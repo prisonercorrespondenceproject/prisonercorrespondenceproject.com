@@ -1,0 +1,129 @@
+---
+import { encryptString } from "~/components/password";
+import Layout from "~/layouts/Layout.astro";
+
+import {
+  PENPALS_PAGE_IFRAME_URL,
+  PENPALS_PAGE_PASSWORD,
+} from "astro:env/server";
+
+const cyphertext = await encryptString(
+  PENPALS_PAGE_IFRAME_URL,
+  PENPALS_PAGE_PASSWORD,
+);
+---
+
+<Layout>
+  <div class="nv-page-title">
+    <h1 class="mt-6 text-5xl">Find a Penpal</h1>
+  </div>
+  <div class="my-6">
+    <p>
+      After signing in below, you will see the self-descriptions of everybody
+      who's currently waiting for a penpal. Whenever someone gets matched up,
+      their profile gets taken down from this page.
+    </p>
+    <p>
+      At the top right there's a drop-down menu to help you target your search.
+      Keep in mind that our inside membership largely reflects the demographics
+      of who is in prison (upwards of 90% of incarcerated people are in men's
+      prisons, and the United States has a much higher prison population). The
+      Search function allows you to filter by geographic location, and to search
+      for keywords (such as hobbies or interests) in members' descriptions. Give
+      it a try! It will help you to narrow down your options and find a good
+      fit.
+    </p>
+    <p>
+      The "When They Got Involved" field indicates when someone first made
+      contact with the Project, not necessarily how long they've been waiting
+      for a penpal: some just wanted to be on the mailing list in the beginning,
+      some had penpals who'd stopped writing and are now waiting to be
+      rematched, etc.
+    </p>
+    <p>
+      That being said, the ones closer to the top have generally been waiting
+      the longest, so if you're trying to choose between a few people, we
+      encourage you to pick someone closer to the top of the list.
+    </p>
+    <p>
+      Please be aware that these bios were all written by our inside members
+      themselves and do not necessarily reflect the views of the organization.
+    </p>
+    <p>
+      Let us know who you want to correspond with and we'll send you the
+      address. Get in touch if you have any questions!
+    </p>
+
+    <form
+      id="signin"
+      class="inline-block rounded bg-slate-100 p-4 outline-1 outline-slate-300"
+      data-cyphertext={cyphertext}
+    >
+      <label for="penpals-pwd" class="block">
+        Password
+      </label>
+      <div class="flex items-stretch gap-2">
+        <input
+          id="penpals-pwd"
+          type="password"
+          spellcheck="false"
+          required=""
+          size="20"
+          class="rounded bg-white px-2 py-1 outline-1 focus:outline-2"
+        />
+        <input
+          type="submit"
+          name="Submit"
+          value="Enter"
+          class="cursor-pointer rounded bg-rose-200 p-2 outline-1 focus:outline-2"
+        />
+      </div>
+      <div id="pwd-error" class="text-red-950"></div>
+    </form>
+  </div>
+</Layout>
+
+<script>
+  import { deriveKey, fromBase64 } from "~/components/password";
+
+  async function decryptString(encrypted: string, password: string) {
+    const [saltB64, ivB64, ciphertextB64] = encrypted.split(".");
+    const salt = fromBase64(saltB64);
+    const iv = fromBase64(ivB64);
+    const ciphertext = fromBase64(ciphertextB64);
+    const key = await deriveKey(password, salt);
+    const plaintext = await crypto.subtle.decrypt(
+      { name: "AES-GCM", iv },
+      key,
+      ciphertext,
+    );
+    return new TextDecoder().decode(plaintext);
+  }
+
+  const form = document.querySelector<HTMLFormElement>("#signin");
+  if (!form) throw new Error("expected #form");
+
+  form.addEventListener("submit", async (event) => {
+    event.preventDefault();
+    const input = document.querySelector<HTMLInputElement>("#penpals-pwd");
+    if (!input) throw new Error("expected #penpals-pwd");
+    const password = input.value;
+
+    try {
+      const url = await decryptString(form.dataset.cyphertext!, password);
+      const iframe = document.createElement("iframe");
+      iframe.src = url;
+      iframe.width = "100%";
+      iframe.height = "5000px";
+      form.insertAdjacentElement("beforebegin", iframe);
+      form.remove();
+    } catch (e) {
+      if (e instanceof DOMException && e.name === "OperationError") {
+        document.querySelector("#pwd-error")!.textContent =
+          "Incorrect password.";
+      } else {
+        throw e;
+      }
+    }
+  });
+</script>

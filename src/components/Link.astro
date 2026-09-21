@@ -1,0 +1,24 @@
+---
+interface Props extends astroHTML.JSX.AnchorHTMLAttributes {}
+
+let { href, ...rest } = Astro.props;
+
+if (typeof href === "string") {
+  const base = import.meta.env.BASE_URL.replace(/\/$/, "");
+
+  const hasProtocol = /^[a-z][a-z\d+\-.]*:/i.test(href);
+
+  if (
+    !hasProtocol &&
+    !href.startsWith("//") &&
+    !href.startsWith("#") &&
+    href.startsWith("/")
+  ) {
+    href = `${base}${href}`;
+  }
+}
+---
+
+<a href={href} {...rest}>
+  <slot />
+</a>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_4" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="310px" height="310px" viewBox="0 0 310 310" enable-background="new 0 0 310 310" xml:space="preserve">
+	<path fill="none" stroke-width="5.0195" stroke-miterlimit="10" d="M171.185,223.869l-12.019,8.892
+		c-2.22,1.642-5.535,1.297-7.368-0.768l-23.427-26.383c-1.833-2.064-1.175-4.418,1.464-5.23l168.578-51.934
+		c2.639-0.813,3.035-0.063,0.883,1.664l-101.484,81.461c-2.153,1.729-5.953,2.169-8.445,0.98l-60.869-29.044"/>
+	<path fill="none" stroke-width="5.0195" stroke-miterlimit="10" d="M125.038,135.823l10.352,6.738
+		c2.332,1.518,5.713,1.023,7.514-1.098l16.186-19.069c1.801-2.122,1.084-4.481-1.592-5.243L11.656,75.64
+		c-2.677-0.762-3.003-0.078-0.725,1.521l91.6,64.283c2.278,1.6,6.207,1.949,8.731,0.779l47.396-21.972"/>
+  <style>
+    path { stroke: #231F20; }
+    @media (prefers-color-scheme: dark) {
+      path { stroke: white; }
+    }
+  </style>
+</svg>

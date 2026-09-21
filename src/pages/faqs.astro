@@ -1,0 +1,33 @@
+---
+import Layout from "~/layouts/Layout.astro";
+import * as faqs from "~/components/faqs.md";
+
+const compiled = await faqs.compiledContent();
+---
+
+<Layout>
+  <div class="nv-page-title">
+    <h1 class="mt-6 text-5xl">Frequently Asked Questions</h1>
+  </div>
+  <div id="faqs" class="my-6">
+    <Fragment set:html={compiled} />
+  </div>
+</Layout>
+
+<style>
+  @reference "~/styles/global.css";
+
+  #faqs {
+    :global(h2) {
+      @apply mt-4 mb-2;
+    }
+
+    :global(details) {
+      @apply prose mt-4 max-w-none;
+    }
+
+    :global(summary) {
+      @apply cursor-pointer rounded bg-slate-200 px-4 py-2 text-xl;
+    }
+  }
+</style>

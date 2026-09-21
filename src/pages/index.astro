@@ -1,0 +1,264 @@
+---
+import { Picture } from "astro:assets";
+import Layout from "~/layouts/Layout.astro";
+import Link from "~/components/Link.astro";
+import prisonBars from "~/images/prison-bars.jpg";
+---
+
+<Layout>
+  <div class="wp-block-cover alignfull">
+    <Picture
+      src={prisonBars}
+      class="wp-block-cover__image-background wp-image-2724"
+      alt="An image of prison bars"
+    />
+    <span
+      aria-hidden="true"
+      class="wp-block-cover__background has-background-dim"
+    ></span>
+    <div class="wp-block-cover__inner-container is-layout-flow wp-block-cover-is-layout-flow">
+      <div class="wp-block-group alignwide">
+        <div class="wp-block-group__inner-container is-layout-flow wp-block-group-is-layout-flow">
+          <p class="has-text-align-center has-medium-font-size">
+            The Prisoner Correspondence Project is a solidarity project for gay,
+            lesbian, transsexual, transgender, gendervariant, two-spirit,
+            intersex, bisexual and queer prisoners in Canada and the United
+            States, linking them with people a part of these same communities
+            outside of prison.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="wp-block-group alignfull has-neve-link-hover-color-background-color has-background">
+    <div class="wp-block-group__inner-container is-layout-flow wp-block-group-is-layout-flow">
+      <div
+        style="height: 20px"
+        aria-hidden="true"
+        class="wp-block-spacer"
+      ></div>
+
+      <div class="wp-block-kadence-icon kt-svg-icons kt-svg-icons7711_453c9c-87 alignnone">
+        <div class="wp-block-kadence-single-icon kt-svg-style-default kt-svg-icon-wrap kt-svg-item-7711_42851d-44">
+          <span class="kb-svg-icon-wrap kb-svg-icon-ic_pencil">
+            <svg
+              viewBox="0 0 8 8"
+              fill="currentColor"
+              xmlns="http://www.w3.org/2000/svg"
+              aria-hidden="true"
+            >
+              <path d="M6 0l-1 1 2 2 1-1-2-2zm-2 2l-4 4v2h2l4-4-2-2z"></path>
+            </svg>
+          </span>
+        </div>
+      </div>
+
+      <h2 class="wp-block-heading has-text-align-center">THE PENPAL PROGRAM</h2>
+
+      <div class="wp-block-columns alignwide is-layout-flex wp-container-core-columns-is-layout-9d6595d7 wp-block-columns-is-layout-flex">
+        <div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
+          <div class="wp-block-group">
+            <div class="wp-block-group__inner-container is-layout-flow wp-block-group-is-layout-flow">
+              <h3 class="wp-block-heading has-text-align-center">
+                Get a penpal today!
+              </h3>
+
+              <p class="has-text-align-center">
+                We are always looking for non-incarcerated people to get
+                involved as penpals. It only takes a few moments.
+              </p>
+
+              <div class="wp-block-kadence-advancedbtn kb-buttons-wrap kb-btns7711_f9e508-24">
+                <Link
+                  class="kb-button kt-button button kb-btn7711_2a4b2f-0f kt-btn-size-standard kt-btn-width-type-auto kb-btn-global-outline"
+                  href="/getting-a-penpal"
+                >
+                  <span class="kt-btn-inner-text">Sign up now</span>
+                </Link>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
+          <div class="wp-block-group">
+            <div class="wp-block-group__inner-container is-layout-flow wp-block-group-is-layout-flow">
+              <h3 class="wp-block-heading has-text-align-center">
+                Have questions?
+              </h3>
+
+              <p class="has-text-align-center">
+                We’ve put together a list of questions that come up most often
+                when deciding to get a penpal, or beginning correspondence.
+              </p>
+
+              <div class="wp-block-kadence-advancedbtn kb-buttons-wrap kb-btns7711_22dc23-59">
+                <Link
+                  class="kb-button kt-button button kb-btn7711_9dadc9-18 kt-btn-size-standard kt-btn-width-type-auto kb-btn-global-outline"
+                  href="/faqs"
+                >
+                  <span class="kt-btn-inner-text">Read FAQs</span>
+                </Link>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div
+        style="height: 20px"
+        aria-hidden="true"
+        class="wp-block-spacer"
+      ></div>
+    </div>
+  </div>
+
+  <div style="height: 30px" aria-hidden="true" class="wp-block-spacer"></div>
+
+  <div class="wp-block-columns is-layout-flex wp-container-core-columns-is-layout-9d6595d7 wp-block-columns-is-layout-flex">
+    <div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
+      <div class="wp-block-kadence-icon kt-svg-icons kt-svg-icons7711_28f344-e7 alignnone">
+        <div class="wp-block-kadence-single-icon kt-svg-style-default kt-svg-icon-wrap kt-svg-item-7711_f98e6b-31">
+          <span class="kb-svg-icon-wrap kb-svg-icon-fas_book">
+            <svg
+              viewBox="0 0 448 512"
+              fill="currentColor"
+              xmlns="http://www.w3.org/2000/svg"
+              aria-hidden="true"
+            >
+              <path d="M448 360V24c0-13.3-10.7-24-24-24H96C43 0 0 43 0 96v320c0 53 43 96 96 96h328c13.3 0 24-10.7 24-24v-16c0-7.5-3.5-14.3-8.9-18.7-4.2-15.4-4.2-59.3 0-74.7 5.4-4.3 8.9-11.1 8.9-18.6zM128 134c0-3.3 2.7-6 6-6h212c3.3 0 6 2.7 6 6v20c0 3.3-2.7 6-6 6H134c-3.3 0-6-2.7-6-6v-20zm0 64c0-3.3 2.7-6 6-6h212c3.3 0 6 2.7 6 6v20c0 3.3-2.7 6-6 6H134c-3.3 0-6-2.7-6-6v-20zm253.4 250H96c-17.7 0-32-14.3-32-32 0-17.6 14.4-32 32-32h285.4c-1.9 17.1-1.9 46.9 0 64z"></path>
+            </svg>
+          </span>
+        </div>
+      </div>
+
+      <h3 class="wp-block-heading has-text-align-center">RESOURCE LIBRARY</h3>
+
+      <p class="has-text-align-center">
+        We operate a resource library of harm-reduction materials, prisoner
+        writing, smut, that you can send inside to your penpal.
+      </p>
+
+      <div class="wp-block-kadence-advancedbtn kb-buttons-wrap kb-btns7711_170722-a0">
+        <Link
+          class="kb-button kt-button button kb-btn7711_192788-55 kt-btn-size-standard kt-btn-width-type-auto kb-btn-global-outline"
+          href="/resource-library"
+        >
+          <span class="kt-btn-inner-text">Browse library</span>
+        </Link>
+      </div>
+    </div>
+
+    <div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
+      <div class="wp-block-kadence-icon kt-svg-icons kt-svg-icons7711_cf1d69-e8 alignnone">
+        <div class="wp-block-kadence-single-icon kt-svg-style-default kt-svg-icon-wrap kt-svg-item-7711_46bcca-5e">
+          <span class="kb-svg-icon-wrap kb-svg-icon-fe_mail">
+            <svg
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              xmlns="http://www.w3.org/2000/svg"
+              aria-hidden="true"
+            >
+              <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+              <polyline points="22,6 12,13 2,6"></polyline>
+            </svg>
+          </span>
+        </div>
+      </div>
+
+      <h3 class="wp-block-heading has-text-align-center">THE WORD IS OUT</h3>
+
+      <p class="has-text-align-center">
+        Our annual newsletter contains prison news, celebrity gossip, prisoner
+        writing and art and much more.
+      </p>
+
+      <div class="wp-block-kadence-advancedbtn kb-buttons-wrap kb-btns7711_e34bd0-d9">
+        <Link
+          class="kb-button kt-button button kb-btn7711_98910c-db kt-btn-size-standard kt-btn-width-type-auto kb-btn-global-outline"
+          href="/product/the-word-is-out-26-music"
+          target="_blank"
+          rel="noreferrer noopener"
+        >
+          <span class="kt-btn-inner-text">Read the latest issue</span>
+        </Link>
+      </div>
+    </div>
+
+    <div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
+      <div class="wp-block-kadence-icon kt-svg-icons kt-svg-icons7711_47fe6b-3a alignnone">
+        <div class="wp-block-kadence-single-icon kt-svg-style-default kt-svg-icon-wrap kt-svg-item-7711_eed7dd-f4">
+          <span class="kb-svg-icon-wrap kb-svg-icon-fas_user-friends">
+            <svg
+              viewBox="0 0 640 512"
+              fill="currentColor"
+              xmlns="http://www.w3.org/2000/svg"
+              aria-hidden="true"
+            >
+              <path d="M192 256c61.9 0 112-50.1 112-112S253.9 32 192 32 80 82.1 80 144s50.1 112 112 112zm76.8 32h-8.3c-20.8 10-43.9 16-68.5 16s-47.6-6-68.5-16h-8.3C51.6 288 0 339.6 0 403.2V432c0 26.5 21.5 48 48 48h288c26.5 0 48-21.5 48-48v-28.8c0-63.6-51.6-115.2-115.2-115.2zM480 256c53 0 96-43 96-96s-43-96-96-96-96 43-96 96 43 96 96 96zm48 32h-3.8c-13.9 4.8-28.6 8-44.2 8s-30.3-3.2-44.2-8H432c-20.4 0-39.2 5.9-55.7 15.4 24.4 26.3 39.7 61.2 39.7 99.8v38.4c0 2.2-.5 4.3-.6 6.4H592c26.5 0 48-21.5 48-48 0-61.9-50.1-112-112-112z"></path>
+            </svg>
+          </span>
+        </div>
+      </div>
+
+      <h3 class="wp-block-heading has-text-align-center">FUNDRAISING</h3>
+
+      <p class="has-text-align-center">
+        The price of mail keeps going up, so we rely on a network of grassroots
+        supporters to enable our work.
+      </p>
+
+      <div class="wp-block-kadence-advancedbtn kb-buttons-wrap kb-btns7711_59329d-21">
+        <Link
+          class="kb-button kt-button button kb-btn7711_985ba2-34 kt-btn-size-standard kt-btn-width-type-auto kb-btn-global-outline"
+          href="/donate"
+        >
+          <span class="kt-btn-inner-text">Donate now</span>
+        </Link>
+      </div>
+    </div>
+  </div>
+
+  <div style="height: 30px" aria-hidden="true" class="wp-block-spacer"></div>
+
+  <div class="wp-block-group alignfull has-nv-site-bg-color has-nv-c-2-background-color has-text-color has-background">
+    <div class="wp-block-group__inner-container is-layout-flow wp-block-group-is-layout-flow">
+      <div
+        style="height: 20px"
+        aria-hidden="true"
+        class="wp-block-spacer"
+      ></div>
+
+      <h2 class="wp-block-heading has-text-align-center">Volunteer Sessions</h2>
+
+      <p class="has-text-align-center has-nv-site-bg-color has-text-color">
+        Every week we get 100+ letters at our central office and need help
+        reading, sorting, and responding to each one. We hold regular volunteer
+        sessions:
+      </p>
+
+      <p class="has-text-align-center has-nv-site-bg-color has-text-color">
+        <strong>DROP-IN HOURS</strong>
+        <br />
+        Every Tuesday
+        <br />
+        5pm – 9pm
+      </p>
+
+      <p class="has-text-align-center has-nv-site-bg-color has-text-color">
+        If you can’t make it on Tuesdays, get in touch to schedule another time.
+      </p>
+
+      <div
+        style="height: 20px"
+        aria-hidden="true"
+        class="wp-block-spacer"
+      ></div>
+    </div>
+  </div>
+</Layout>

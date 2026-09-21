@@ -1,0 +1,214 @@
+---
+import Layout from "~/layouts/Layout.astro";
+---
+
+<Layout>
+  <div class="nv-page-title">
+    <h1 class="mt-6 text-5xl">About Us</h1>
+  </div>
+  <div class="mt-6">
+    <div class="wp-block-columns is-layout-flex wp-container-core-columns-is-layout-9d6595d7 wp-block-columns-is-layout-flex">
+      <div
+        class="wp-block-column is-layout-flow wp-block-column-is-layout-flow"
+        style="flex-basis: 66.66%"
+      >
+        <div class="flex gap-2">
+          <div
+            class="flex w-full flex-col items-center justify-center rounded bg-slate-100 p-2"
+            data-start="4400"
+            data-end="4897"
+            data-duration="2.5"
+          >
+            <div class="kb-count-up-number text-2xl"></div>
+            <div class="text-center text-sm text-balance">Inside Members</div>
+          </div>
+
+          <div
+            class="flex w-full flex-col items-center justify-center rounded bg-slate-100 p-2"
+            data-start="300"
+            data-end="386"
+            data-duration="2.5"
+          >
+            <div class="kb-count-up-number text-2xl"></div>
+            <div class="text-center text-sm text-balance">
+              Prisons with Members
+            </div>
+          </div>
+
+          <div
+            class="flex w-full flex-col items-center justify-center rounded bg-slate-100 p-2"
+            data-start="60"
+            data-end="104"
+            data-duration="2.5"
+          >
+            <div class="kb-count-up-number text-2xl"></div>
+            <div class="text-center text-sm text-balance">
+              Letters Received per Week
+            </div>
+          </div>
+
+          <div
+            class="flex w-full flex-col items-center justify-center rounded bg-slate-100 p-2"
+            data-start="8200"
+            data-end="8652"
+            data-duration="2.5"
+          >
+            <div class="kb-count-up-number text-2xl"></div>
+            <div class="text-center text-sm text-balance">
+              Envelopes Mailed in a Year
+            </div>
+          </div>
+
+          <script>
+            document
+              .querySelectorAll<HTMLDivElement>("[data-start]")
+              .forEach((el) => {
+                const counter = el.querySelector(
+                  ".kb-count-up-number",
+                ) as HTMLDivElement;
+                const start = parseInt(el.dataset.start!);
+                const end = parseInt(el.dataset.end!);
+                const duration = parseInt(el.dataset.duration!) * 1000;
+                const startTime = performance.now();
+
+                const update = (t: number) => {
+                  const progress = Math.min((t - startTime) / duration, 1);
+                  const eased = 1 - Math.pow(1 - progress, 3);
+
+                  counter.textContent = Math.round(
+                    start + (end - start) * eased,
+                  ).toLocaleString();
+
+                  if (progress < 1) requestAnimationFrame(update);
+                };
+
+                requestAnimationFrame(update);
+              });
+          </script>
+        </div>
+
+        <div class="mt-6">
+          The Prisoner Correspondence Project started in 2007 in Montreal by
+          taking on a handful of surplus letters from another organization and
+          committing to finding them penpals. Since then it has grown
+          exponentially as word travels inside prisons. The project is run by an
+          all-volunteer group. An outside collective of about 6-10 people
+          answers letters, sends resources inside, and compiles the newsletter.
+          An inside advisory committee of 4-8 people helps choose newsletter
+          themes, reviews new resources to be added, and offers general feedback
+          on the functioning of the project.
+          <br />
+          <br />
+          One question that we often field is why we focus on LGBT prisoners. On
+          one hand, LGBT prisoners face an intensification of many of the issues
+          faced by all prisoners: exposure to violence and sexual violence,
+          mailroom surveillance and censorship, medical neglect, lack of safer
+          sex information or materials, and a profound isolation from friends,
+          families, chosen families, and other networks of support. For a deeper
+          understanding of the issues faced, check out Black and Pink’s
+          excellent report{" "}
+          <a href="http://www.blackandpink.org/survey/">
+            Coming Out of Concrete Closets
+          </a>
+          .<br />
+          <br />
+          On the other hand, we view it as an opportunity to draw the wider LGBT
+          community into prison justice organizing. We believe we can build on
+          gay liberation legacies to work in solidarity with a larger prison
+          justice movement. We are guided by a commitment to community support,
+          a deep and historic suspicion of policing and surveillance, the belief
+          that personal relationships are an integral part of consciousness
+          building, and an unyielding dedication to sexual and gender
+          self-determination.
+        </div>
+      </div>
+
+      <div class="rounded bg-slate-100 p-4" style="flex-basis: 33.33%">
+        <div class="wp-block-group">
+          <div class="wp-block-group__inner-container is-layout-flow wp-block-group-is-layout-flow">
+            <h2 class="wp-block-heading">Sisters in the Struggle</h2>
+
+            <p>
+              <strong>
+                <a href="http://www.bentbarsproject.org/">Bent Bars</a>
+              </strong>
+              (London, UK)
+              <br />
+              LGBT penpal and support group
+              <br />
+              <br />
+              <strong>
+                <a href="http://www.blackandpink.org/">Black and Pink</a>
+              </strong>
+              (USA)
+              <br />
+              LGBT penpal and support group
+              <br />
+              <br />
+              <strong>
+                <a href="http://lgbtbookstoprisoners.org/">
+                  LGBT Books to Prisoners
+                </a>
+              </strong>
+              (Madison, USA)
+              <br />
+              Books to prisoners project with an LGBT focus
+              <br />
+              <br />
+              <strong>
+                <a href="http://noprideinprisons.org.nz/">
+                  No Pride in Prisons
+                </a>
+              </strong>
+              (Auckland, NZ)
+              <br />
+              Solidarity project for queer and trans prisoners
+              <br />
+              <br />
+              <strong>
+                <a href="http://www.pasan.org/">PASAN</a>
+              </strong>
+              (Toronto, CAN)
+              <br />
+              Prisoners with HIV/AIDS Support Action Network <br />
+              <br />
+              <a href="https://www.powerblossoms.org/">
+                <strong>Power Blossoms</strong>
+              </a>
+              (Southern California, USA)
+              <br />
+              Abolitionist organization bringing together queer and trans people
+              on both sides of prison walls in the fight against hierarchies and
+              State oppression
+              <br />
+              <br />
+              <strong>
+                <a href="https://www.prisonlegalnews.org/">Prison Legal News</a>
+              </strong>
+              <br />A monthly publication of American legal cases relevant to
+              jailhouse lawyers
+              <br />
+              <br />
+              <strong>
+                <a href="http://www.tgijp.org/">TGIJP</a>
+              </strong>
+              (San Francisco, USA)
+              <br />A group by and for (formerly) incarcerated trans women of
+              colour
+              <br />
+              <br />
+              <strong>
+                <a href="http://tranzmissionprisonproject.yolasite.com/">
+                  Tranzmission Prison Project
+                </a>
+              </strong>
+              (Asheville, USA)
+              <br />
+              Support group for LGBTQQIA prisoners
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</Layout>
