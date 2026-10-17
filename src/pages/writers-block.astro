@@ -1,5 +1,8 @@
 ---
+import { Picture } from "astro:assets";
 import Layout from "~/layouts/Layout.astro";
+
+import wb from "~/images/Writers-Block-IG-Square-1024x1024.png";
 ---
 
 <Layout>
@@ -8,26 +11,7 @@ import Layout from "~/layouts/Layout.astro";
   </div>
   <div class="mt-6">
     <div class="wp-block-image is-style-default wp-duotone-unset-1">
-      <figure class="aligncenter size-large is-resized">
-        <img
-          decoding="async"
-          width="1024"
-          height="1024"
-          src="https://prisonercorrespondenceproject.com/wp-content/uploads/2025/11/Writers-Block-IG-Square-1024x1024.png"
-          alt=""
-          class="wp-image-8039"
-          style="width: 538px; height: auto"
-          srcset="
-                        https://prisonercorrespondenceproject.com/wp-content/uploads/2025/11/Writers-Block-IG-Square-1024x1024.png 1024w,
-                        https://prisonercorrespondenceproject.com/wp-content/uploads/2025/11/Writers-Block-IG-Square-300x300.png    300w,
-                        https://prisonercorrespondenceproject.com/wp-content/uploads/2025/11/Writers-Block-IG-Square-150x150.png    150w,
-                        https://prisonercorrespondenceproject.com/wp-content/uploads/2025/11/Writers-Block-IG-Square-768x768.png    768w,
-                        https://prisonercorrespondenceproject.com/wp-content/uploads/2025/11/Writers-Block-IG-Square-100x100.png    100w,
-                        https://prisonercorrespondenceproject.com/wp-content/uploads/2025/11/Writers-Block-IG-Square.png           1500w
-                      "
-          sizes="(max-width: 1024px) 100vw, 1024px"
-        />
-      </figure>
+      <Picture src={wb} layout="constrained" width={600} alt="Writer's Block" />
     </div>
 
     <p>
@@ -57,7 +41,7 @@ import Layout from "~/layouts/Layout.astro";
     <h2 class="wp-block-heading">Join us for Writer’s Block 2026:</h2>
 
     <p>
-      All Writer’s Block sessions use the same Zoom link! 
+      All Writer’s Block sessions use the same Zoom link!{" "}
       <a href="https://concordia-ca.zoom.us/meeting/register/I9foQBcmRIqO5jfIivs8oQ">
         <strong>Register here.</strong>
       </a>
@@ -70,6 +54,5 @@ import Layout from "~/layouts/Layout.astro";
     <p>Oct 21, 2026 5-6pm PT / 8-9pm ET</p>
 
     <p>Nov 25, 2026 5-6pm PT / 8-9pm ET</p>
-
   </div>
 </Layout>
