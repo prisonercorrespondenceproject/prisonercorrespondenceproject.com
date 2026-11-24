@@ -9,7 +9,9 @@ These Frequently Asked Questions are meant for outside penpals who have question
 
 <details> <summary>I don't know how to start or what to say!</summary>
 
-Writing the first letter can be intimidating, but you probably have lots of interesting things to share. It’s just a matter of getting started. One exercise is to think about a conversation you might have with someone you had just met at a bar, a potluck, or a new job. You might talk about why you're there, or where you grew up. You might talk about an interesting article you read the other day, or what you did on the weekend. You might talk about the weather. Use these topics to start your first letter. Having this conversation with a penpal might feel awkward at first, because most of us are not used to regularly writing letters. When communicating in person, we use the other person's response tocarry the conversation, so it can feels uncomfortable to say everything at once. Don’t let this deter you. As with any new friendship, it will get easier with time.
+Writing the first letter can be intimidating, but you probably have lots of interesting things to share. One exercise is to think about a conversation you might have with someone you had just met at a bar, a potluck, or a new job. You might talk about why you’re there, or where you grew up. You might talk about an interesting article you read the other day, or what you did on the weekend. You might talk about the weather. If you noticed a common interest or experience in your penpal's bio, you might talk about your interest, and ask them questions about theirs. For example, if you and your penpal are both painters, you might share about your art practice and what you love about painting, and ask your penpal what they like to paint and what their painting style is like. This also applies to interests you don't share! A first letter is a way for your penpal to learn a little about who you are, which could include whatever feels important to you - your pets, your favourite food, what you do for work, your queer/trans identity, your activism, your hobbies, etc.
+
+Having this conversation with a penpal might feel awkward at first, because most of us are not used to regularly writing letters. When communicating in person, we use the other person’s response to carry the conversation, so it can feel uncomfortable to say everything at once. Don’t let this deter you. As with any new friendship, it will get easier with time.
 
 In your initial letter, it’s also important to include some basic questions regarding boundaries that your penpal might have, in terms of what they feel comfortable talking about (in general or specifically regarding identity) and the restrictions they need to follow in their prison. For more information on this, check out the section entitled LOGISTICS below. Another important thing to include is a clear idea of how often you anticipate being able to write. If it’s one letter per month, for example, that’s fine; just make sure your penpal knows that so that expectations are set from the beginning.
 
@@ -17,15 +19,15 @@ In your initial letter, it’s also important to include some basic questions re
 
 <details> <summary>We don't have anything in common. What do I do?</summary>
 
-It’s all right if you don’t have much in common at first. You could learn a lot from someone whose lifeis very different from your own. and you might even end up discovering commonalities that weren’t apparent in the beginning. Try talking about your own life and things that you like, , and your pen pal will probably want to learn more about what you’ve been up to. Ask your penpal questions about the things they’ve expressed interest in, even if you don’t know much about them yourself. As in other social settings, it could take awhile before you get to know your penpal, but the relationships you form can be really rewarding in the long run. If you're really struggling for common ground, here are a few strategies we've found useful:
+It’s alright if you don’t have much in common at first. You could learn a lot from someone whose life is very different from your own, and you might even end up discovering commonalities that weren’t apparent in the beginning. Try talking about your own life and things that you like―your pen pal will probably want to learn more about what you’ve been up to. Ask your penpal questions about the things they’ve expressed interest in, even if you don’t know much about them yourself. As in other social settings, it could take a while before you get to know your penpal, but the relationships you form can be really rewarding in the long run. If you’re really struggling to find common ground, here are a few strategies we’ve found useful:
 
 - Read the same books and use your correspondence as a long-distance book club.
 
-- Collaborate on art: send a drawing back and forth, and add to it in each letter.
+- Collaborate on art: send a drawing back and forth, and add to it in each letter. (Check in with your penpal's mail policies before doing this. Their incoming mail may be scanned and uploaded to their tablet).
 
-- Tear interesting articles out of magazines or print out blog posts and send them to your penpal.
+- Print out blog posts or news articles and send them to your penpal. (Check in about your penpal's mailing restrictions before doing this)
 
-- Treat your letters like a journal, where you write down what you do each day or each week. Even something that seems boring to you can spark your penpal's interest and give you something to talk about.
+- Treat your letters like a journal, where you write down what you do each day or each week. Even something that seems boring to you can spark your penpal’s interest and give you something to talk about.
 
 </details>
 
