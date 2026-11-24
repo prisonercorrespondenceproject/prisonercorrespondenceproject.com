@@ -37,7 +37,7 @@ Starting a new penpal relationship is always awkward at first. We strongly encou
 
 That being said, if it really isn’t working out, we would prefer that you get rematched rather than dropping out of the project altogether. In that case, let us know, and we will work to re-match both you and the inside penpal. Whenever possible,we ask that you write a letter to your penpal, explaining that you’re planning to stop corresponding, but that you wish them all the best. The more notice you can give us of your intentions to stop corresponding, the better. That way we can start working right away to find both of you a new match. 
 
-**It is incredibly important that you let us know if you stop writing. This way, we can re-list your penpal. Once matched, they’re removed from our waitlist and cannot get another penpal. **
+**It is incredibly important that you let us know if you stop writing. This way, we can re-list your penpal. Once matched, they’re removed from our waitlist and cannot get another penpal.**
 
 
 </details>
@@ -77,13 +77,18 @@ If there is an existing penpal program for queer/trans prisoners in your area, w
 Finally, you can ask your penpal in your first letter if they're okay corresponding internationally or if they'd rather wait for a local penpal. If they say they'd rather wait or they don't respond, let us know - sometimes no response is a response. But we encourage you to try again if this happens, as we have many penpals happily corresponding internationally!
 
 Bent Bars: https://www.bentbarsproject.org/
+
 PCP Aotearoa: https://pcn.nz/
 
 </details>
 
 <details> <summary>Are there things I shouldn't talk about when corresponding with my penpal?</summary>
 
-Refer to the section on SAFETY below for a more detailed answer.
+**Refer to the section on SAFETY below for a more detailed answer.**
+
+You should check your penpal’s prison’s mail policies to check what the rules are around what can/can’t be included in letters. Many prisons have policies prohibiting materials that are overtly erotic, violent, or political. If you are having a hard time finding this information, email the Prisoner Correspondence Project for support.
+
+You can also ask your penpal what they or aren't comfortable talking about.
 
 </details>
 
