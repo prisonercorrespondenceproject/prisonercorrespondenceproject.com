@@ -1,6 +1,6 @@
 ---
 title: "Frequently Asked Questions"
-date: 2014-11-21
+date: 2026-11-24
 ---
 
 These Frequently Asked Questions are meant for outside penpals who have questions about beginning a correspondence, or who have come up against obstacles in their correspondence (whether of a logistical or personal nature). All of the questions that appear below are ones that we have been asked quite often and we thought it would be useful to outside penpals to have one place to get advice from us on these various issues. We took our time discussing and drafting responses to the questions, trying to make our answers as informative and helpful as possible. Can’t find what you’re looking for? Have feedback or additions to the FAQ’s? Please get in touch!
