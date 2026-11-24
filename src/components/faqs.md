@@ -71,6 +71,17 @@ Many of our outside penpals identify differently than the person they’re corre
 
 </details>
 
+<details> <summary>I don't live in the US or Canada. Can I still participate?</summary>
+
+If there is an existing penpal program for queer/trans prisoners in your area, we encourage you to reach out to them first to find a penpal. Some programs outside the US and Canada include Bent Bars in the UK and Prisoner Correspondence Network Aotearoa in Aotearoa (New Zealand). If our project still feels like the best option for you, you are welcome to participate, with a few considerations. Postage is more expensive internationally, and letters can take longer to reach their destination. For many of our members who have been waiting a long time for a penpal, these hurdles may be worth it for a new connection. To mitigate the cost of postage, you can offer to contribute funds. You often cannot send postage stamps directly to a prison, so ask your penpal about the best way to contribute financially. To mitigate the distance, one option is to correspond using a digital prison "email" platform like Securus, GettingOut, or Corrlinks - or even talk on the phone! If you're looking for a penpal who has access to their platforms, you can search these terms in their bios. 
+
+Finally, you can ask your penpal in your first letter if they're okay corresponding internationally or if they'd rather wait for a local penpal. If they say they'd rather wait or they don't respond, let us know - sometimes no response is a response. But we encourage you to try again if this happens, as we have many penpals happily corresponding internationally!
+
+Bent Bars: https://www.bentbarsproject.org/
+PCP Aotearoa: https://pcn.nz/
+
+</details>
+
 <details> <summary>Are there things I shouldn't talk about when corresponding with my penpal?</summary>
 
 Refer to the section on SAFETY below for a more detailed answer.
