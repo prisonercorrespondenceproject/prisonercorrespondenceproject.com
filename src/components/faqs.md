@@ -110,18 +110,25 @@ We generally advise waiting about six to eight weeks before trying to write agai
 
 <details> <summary>My penpal is facing danger or violence at the prison where they are incarcerated.</summary>
 
-This issue comes up more often than any of us would like. Sometimes, the scope of what we can accomplish is limited and disheartening. Know that regularly writing letters is one of the most important things you can do. It shows the prison administration and other prisoners that someone outside is paying attention to what happens. In some cases, it may be useful to try to intervene on the prisoner's behalf:
-a) Ask your penpal what support would be useful for them. It is important that you do not disclose information about their situation without their explicit permission. These cases can often lead to retaliatory punishment, so it is important for your penpal to be in control of the actions taken.
-b) Your penpal may ask you to contact the warden, ombudsperson, or legislator. Always send a letter in conjunction with a phone call. Always keep copies of the letters and records of the phone calls.
-c) It may be useful to reach out to other prisoner advocacy or civil liberty groups active in the area. Get in touch with us if you want some help figuring out what those may be.
+This issue comes up more often than any of us would like. Sometimes, the scope of what we can accomplish is limited and disheartening. **Know that regularly writing letters is one of the most important things you can do. It shows the prison administration and other prisoners that someone outside is paying attention to what happens to your penpal.** In some cases, it may be useful to try to intervene on the prisoner’s behalf: 
+
+a) Ask your penpal what support would be useful for them. It is important that you do not disclose information about their situation without their explicit permission. These cases can often lead to retaliatory punishment, so it is important for your penpal to be in control of the actions taken. 
+
+b) Your penpal may ask you to contact the warden, ombudsperson, or legislator. Always send a letter in conjunction with a phone call. Always keep copies of the letters and records of the phone calls. 
+
+c) It may be useful to reach out to other prisoner advocacy or civil liberty groups active in the area. Get in touch with us if you want some help figuring out what those may be. 
+
+Don’t feel like you have to handle this situation on your own, we’re here for you, reach out to us by email or ask for support in the Discord channel.
+
 
 </details>
 
-<details> <summary>My penpal isn’t out as gay/ queer/ trans, and I don’t know how much to say in letters to them.</summary>
+<details> <summary>My penpal isn’t out as LGBTQ+, and I don’t know how much to say in letters to them.</summary>
 
-It’s important to note that being out in this context can mean any number of things; your penpal might be out to their cellmate but no one else, to other prisoners but not the administration, or to the administration but not other prisoners. Always keep this in mind when corresponding. For example, don’t mark the envelope in a way which might out your penpal to a mailroom worker or their cellmate; Similarly, don’t send resources from an organization with a return address that might out them. Keep in mind that, in the case of transgender and transsexual prisoners, using their chosen or “non-legal” name on the envelope risks outing them to both prison staff and other prisoners.
-The best way to figure this out is to ask your penpal, even if you have to do it in coded ways at first (“people like us,” “my lifestyle”), In our experience, it is generally OK to disclose your own LGBTTQ identity or volunteer your own experience, as long as you aren't presuming your penpal’s.
-Also keep in mind that ingoing mail tends to be screened and censored with more frequency than outgoing mail, and that your penpal’s level of outness may change when/if they move prisons.
+It’s important to note that being out in this context can mean any number of things; your penpal might be out to their cellmate but no one else, to other prisoners but not the administration, or to the administration but not other prisoners. Always keep this in mind when corresponding. For example, don’t mark the envelope in a way which might out your penpal to a mailroom worker or their cellmate. Similarly, don’t send resources from an organization with a return address that might out them. Keep in mind that, in the case of transgender and transsexual prisoners, using their chosen or “non-legal” name on the envelope risks outing them to both prison staff and other prisoners and also may result in the letter being returned. The best way to figure this out is to ask your penpal, even if you have to do it in coded ways at first (“people like us,” “my lifestyle”), In our experience, it is generally OK to disclose your own LGBTQ+ identity or volunteer your own experience, as long as you aren’t presuming your penpal’s. Also keep in mind that incoming mail tends to be screened and censored with more frequency than outgoing mail, and that your penpal’s level of outness may change when/if they move prisons.
+
+Ex: Do you have another name/nickname you go by? Are there any topics you aren't comfortable talking about, so that I can know to avoid them?
+
 
 </details>
 
