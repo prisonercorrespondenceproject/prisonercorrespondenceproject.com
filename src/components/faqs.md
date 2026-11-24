@@ -62,7 +62,6 @@ You can always share with your penpal in your first letter that you do not ident
 
 Finally, some members request a penpal that identifies a certain way in their penpal postings. Please respect that.
 
-
 </details>
 
 <details> <summary>I identify differently than my penpal. Is this an issue?</summary>
